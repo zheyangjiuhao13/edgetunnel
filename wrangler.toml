@@ -2,7 +2,19 @@ name = "v20251104"
 main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
+# ...
+[vars]
+ADMIN = "123456a?"
+BEST_SUB = "1"
+PROXYIP = "ProxyIP.SG.CMLiussss.net"
+# ...
+
 
 #[[kv_namespaces]]
 #binding = "KV"			#KV绑定名默认不可修改
 #id = ""				#KV数据库id
+# ...
+[[kv_namespaces]]
+binding = "KV"
+id = "086a58f2f0d84ae4836af2f0cbd73ef7"
+# ...
